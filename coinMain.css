@@ -1,0 +1,18 @@
+
+.container{
+    margin-top: 10%;
+    color: aliceblue;
+}
+
+table{
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s;
+    
+}
