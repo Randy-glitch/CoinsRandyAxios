@@ -8,7 +8,7 @@
 
 }
 tr{
-      
+    
     margin: 0 0.5rem;
 
     animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
