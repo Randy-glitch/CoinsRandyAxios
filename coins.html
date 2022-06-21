@@ -15,10 +15,10 @@
 <body class="bg-dark" >
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class=" container-fluid">
           <a class="navbar-brand" href="./index.html">
             <h1 class="position-absolute top-0 start-50 translate-middle-x mt-3">
-                Randy ama A Pichula Pero ella No me quiere a mi 
+                Randy Cripto 
             </h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
             <ul class="navbar-nav mt-4">
               <li class="nav-item">
                 <form class="formulario d-flex">
-                    <input class="coin form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="coin form-control me-2" type="search" placeholder="Search" aria-label="Search" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing ">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </li>
@@ -39,13 +39,12 @@
       </nav>
       <div class="position-absolute top-50 start-50 translate-middle">
 
-        <div class="alert alert-warning" role="alert">
-          A simple warning alert—check it out!
-        </div>{% block content %}
+        {% block content %}
           Some content
         {% endblock %}
       </div>
 
+      
 
       <div class="container">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -111,6 +110,8 @@
               </table>
           </div>
       </div>
+
+      
       
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment-with-locales.min.js" integrity="sha512-vFABRuf5oGUaztndx4KoAEUVQnOvAIFs59y4tO0DILGWhQiFnFHiR+ZJfxLDyJlXgeut9Z07Svuvm+1Jv89w5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
